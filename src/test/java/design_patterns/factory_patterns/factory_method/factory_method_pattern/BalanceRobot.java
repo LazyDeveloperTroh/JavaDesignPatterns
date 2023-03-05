@@ -1,6 +1,4 @@
-package factorypattern.factorypattern.wrong;
-
-import factorypattern.factorypattern.Robot;
+package design_patterns.factory_patterns.factory_method.factory_method_pattern;
 
 public class BalanceRobot implements Robot {
     @Override

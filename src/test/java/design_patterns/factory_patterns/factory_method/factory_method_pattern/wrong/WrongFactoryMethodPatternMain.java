@@ -1,6 +1,6 @@
-package factorypattern.factorypattern.wrong;
+package design_patterns.factory_patterns.factory_method.factory_method_pattern.wrong;
 
-import factorypattern.factorypattern.Robot;
+import design_patterns.factory_patterns.factory_method.factory_method_pattern.Robot;
 
 /**
  * 팩토리 메소드의 잘못된 예시
