@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="affffa3d-0697-4595-a8e8-224cc55339ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/good/BalanceRobotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/good/FactoryMethodPatternTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/good/PowerRobotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/good/RobotFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/good/SpeedRobotFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="affffa3d-0697-4595-a8e8-224cc55339ed" name="Changes" comment="팩토리 메소드 패턴 업데이트">
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/AbstractFactoryPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/DellKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/DellMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/Keyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/KeyboardMouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/SamsungKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/SamsungMouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/SeoulKeyboardMouseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/abstract_factory_pattern/USAKeyboardMouseFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factorypattern/factorypattern/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factorypattern/factorypattern/wrong/BalanceRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/BalanceRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factorypattern/factorypattern/wrong/PowerRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/PowerRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factorypattern/factorypattern/wrong/SpeedRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/SpeedRobot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factorypattern/factorypattern/wrong/WrongFactoryMethodPatternMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/design_patterns/factory_patterns/factory_method/factory_method_pattern/wrong/WrongFactoryMethodPatternMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AbstractFactoryPatternTest.keyboardMouseFactoryTest">
     <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factorypattern.wrong.FactoryMain" />
       <module name="DesignPatterns.main" />
@@ -104,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AbstractFactoryPatternTest.keyboardMouseFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPatterns.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="design_patterns.factory_patterns.factory_method.abstract_factory_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="design_patterns.factory_patterns.factory_method.abstract_factory_pattern" />
+      <option name="MAIN_CLASS_NAME" value="design_patterns.factory_patterns.factory_method.abstract_factory_pattern.AbstractFactoryPatternTest" />
+      <option name="METHOD_NAME" value="keyboardMouseFactoryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryMethodPatternTest.robotFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatterns.test" />
       <extension name="coverage">
@@ -122,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AbstractFactoryPatternTest.keyboardMouseFactoryTest" />
         <item itemvalue="JUnit.FactoryMethodPatternTest.robotFactory" />
         <item itemvalue="Application.FactoryMethodPatternTest" />
         <item itemvalue="Application.WrongFactoryMethodPatternMain" />
@@ -142,12 +158,24 @@
       <workItem from="1677995544254" duration="9000" />
       <workItem from="1677995564468" duration="104000" />
       <workItem from="1677995679335" duration="362000" />
-      <workItem from="1677996050704" duration="3905000" />
+      <workItem from="1677996050704" duration="5185000" />
     </task>
+    <task id="LOCAL-00001" summary="팩토리 메소드 패턴 업데이트">
+      <created>1678000195028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678000195028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="팩토리 메소드 패턴 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="팩토리 메소드 패턴 업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
